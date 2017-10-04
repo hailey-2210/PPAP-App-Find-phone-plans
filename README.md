@@ -5,4 +5,4 @@ At this stage, the app features Firebase Authentication, Firebase Database and F
 
 Future development may include webscraping.
 
-![alt tag] (https://user-images.githubusercontent.com/30451466/31174927-181aa5fa-a959-11e7-945f-77249d4042bb.png "First screen")
+
