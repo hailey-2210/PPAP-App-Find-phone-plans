@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageProvider"
+        android:layout_width="69dp"
+        android:layout_height="98dp"
+        android:src="@drawable/placeholder"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:text="No Plan"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textViewName"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+
+    <TextView
+        android:text="No Price Available"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:id="@+id/textViewPrice"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:layout_alignBottom="@+id/imageProvider"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Plan Information"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textViewInfo"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageProvider"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="match_parent"
+        android:background="@color/greyLight"
+        android:layout_height="70dp"
+        android:text="data"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textAlignment="center"
+        android:layout_below="@+id/textViewInfo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/textViewNtnCall"
+        android:layout_width="match_parent"
+        android:text="national call"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="@color/greyLight"
+        android:layout_height="70dp"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textViewData"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewIntCall"
+        android:layout_width="match_parent"
+        android:text="international call"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="@color/greyLight"
+        android:textAlignment="center"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@id/textViewNtnCall"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/shareBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_round_green"
+            android:drawableTop="@drawable/ic_menu_send"
+            android:text="SHARE"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/goBtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_round_blue"
+            android:drawableTop="@drawable/ic_forward"
+            android:text="GO TO SITE"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp" />
+
+        <Button
+            android:id="@+id/addBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_round_red"
+            android:drawableTop="@drawable/ic_heart"
+            android:text="LIKE IT!"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "290404077760",
+    "firebase_url": "https://ppap-findphoneplans.firebaseio.com",
+    "project_id": "ppap-findphoneplans",
+    "storage_bucket": "ppap-findphoneplans.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290404077760:android:cbb665afd7a54429",
+        "android_client_info": {
+          "package_name": "application.ppap_findphoneplans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290404077760-rfnmh1ljfuarfod9o19s9dnmv2hisv33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "application.ppap_findphoneplans",
+            "certificate_hash": "455c17f4284ebf842793d9b6b3586323ee6e257b"
+          }
+        },
+        {
+          "client_id": "290404077760-9h2ro807l7hm0iuvocshmfn9lltnno28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBgg5BXJBlP8ut9pvEkjnrVkB-AzEXaLg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290404077760-9h2ro807l7hm0iuvocshmfn9lltnno28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290404077760:android:4b4f4783de372a96",
+        "android_client_info": {
+          "package_name": "com.hdo.phoneplanandpriceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290404077760-rl62jfdl2igu8of823jlrit8j0cs4bqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hdo.phoneplanandpriceapp",
+            "certificate_hash": "455c17f4284ebf842793d9b6b3586323ee6e257b"
+          }
+        },
+        {
+          "client_id": "290404077760-9h2ro807l7hm0iuvocshmfn9lltnno28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBgg5BXJBlP8ut9pvEkjnrVkB-AzEXaLg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290404077760-9h2ro807l7hm0iuvocshmfn9lltnno28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

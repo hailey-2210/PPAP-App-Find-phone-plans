@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_phone_search"
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            android:title="Find Phone Plans" />
+        <item
+            android:id="@+id/nav_sim_search"
+            android:icon="@drawable/ic_sim_card_black"
+            android:title="Find SIM Plans" />
+        <item
+            android:id="@+id/nav_deal"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Hot Deals" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_menu_heart"
+            android:title="Favorites" />
+    </group>
+
+    <item android:title="For smarter search">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account_circle"
+                android:title="Account" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share this App" />
+        </menu>
+    </item>
+
+</menu>

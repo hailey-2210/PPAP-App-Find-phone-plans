@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_phone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SimSearchActivity">
+
+    <TextView
+        android:id="@+id/dataTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Data (mininimum)"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/ntnCallSwitch"
+        android:layout_alignStart="@+id/ntnCallSwitch" />
+
+    <EditText
+        android:id="@+id/searchData"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:inputType="numberDecimal"
+        android:hint="GB"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_alignBaseline="@+id/dataTextView"
+        android:layout_alignBottom="@+id/dataTextView"
+        android:layout_alignRight="@+id/ntnCallSwitch"/>
+
+    <Switch
+        android:id="@+id/ntnCallSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unlimited National Calls"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_below="@+id/searchData"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Switch
+        android:id="@+id/intCallSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Included International Calls"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_below="@+id/ntnCallSwitch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/searchSimBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_blue"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="SEARCH"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/intCallSwitch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/resetSimBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_grey"
+        android:textColor="@color/greyDark"
+        android:textSize="20sp"
+        android:text="RESET"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/intCallSwitch"
+        android:layout_alignBottom="@id/searchSimBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <ListView
+        android:id="@+id/listViewSims"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchSimBtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp" />
+
+</RelativeLayout>
