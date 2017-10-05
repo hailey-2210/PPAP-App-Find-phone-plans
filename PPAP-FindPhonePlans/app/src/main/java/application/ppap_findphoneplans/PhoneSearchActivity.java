@@ -26,8 +26,8 @@ import application.ppap_findphoneplans.adapters.PhoneList;
 import application.ppap_findphoneplans.models.Phone;
 
 public class PhoneSearchActivity extends AppCompatActivity {
-    public static final String PHONE_NAME = "com.hdo.phoneplanandpriceapp.phonename";
-    public static final String PHONE_ID = "com.hdo.phoneplanandpriceapp.phoneid";
+    public static final String PHONE_NAME = "phonename";
+    public static final String PHONE_ID = "phoneid";
 
     EditText searchText;
     Button buttonSearchPhone;
